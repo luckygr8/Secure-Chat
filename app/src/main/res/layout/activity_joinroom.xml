@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinroomActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter room name"
+        android:layout_centerInParent="true"
+        android:id="@+id/joinroom_roomname"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/joinroom_roomname"
+        android:hint="enter room password"
+        android:layout_centerInParent="true"
+        android:id="@+id/joinroom_roompass"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/joinroom_roompass"
+        android:text="join room"
+        android:id="@+id/joinroom_joinroom"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+</RelativeLayout>
